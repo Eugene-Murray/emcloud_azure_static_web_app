@@ -3,7 +3,7 @@ import {
   EntityCollectionServiceBase,
   EntityCollectionServiceElementsFactory,
 } from '@ngrx/data';
-import { Product } from '../core';
+import { Product } from '../../core';
 
 @Injectable({ providedIn: 'root' })
 export class ProductService extends EntityCollectionServiceBase<Product> {

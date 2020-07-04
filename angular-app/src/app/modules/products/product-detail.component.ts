@@ -8,7 +8,7 @@ import {
   ChangeDetectionStrategy,
 } from '@angular/core';
 
-import { Product } from '../core';
+import { Product } from '../../core';
 
 @Component({
   selector: 'app-product-detail',
