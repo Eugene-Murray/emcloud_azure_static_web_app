@@ -9,10 +9,12 @@ import { AboutComponent } from './about.component';
 import { RouterModule } from '@angular/router';
 import { externalModules } from './build-specific';
 import { declarations } from './core';
+import { FooterModule } from './core/modules/footer/footer.module';
 
 @NgModule({
   declarations: [AppComponent, AboutComponent, declarations],
   imports: [
+    FooterModule,
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot(routes),

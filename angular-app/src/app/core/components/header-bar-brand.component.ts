@@ -59,7 +59,7 @@ import { Component } from '@angular/core';
           <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-faded">
               <a class="navbar-brand navbar-logo" href="index.html"
-                ><img src="images/logo.png" alt=""
+                ><img src="assets/images/logo.png" alt=""
               /></a>
               <div
                 class="collapse navbar-collapse main-menu"
@@ -68,328 +68,55 @@ import { Component } from '@angular/core';
                 <ul class="navbar-nav nav ml-auto">
                   <li class="nav-item p-nav">
                     <a href="index.html" class="nav-link active nav-menu"
-                      >Home<i class="fa fa-angle-down"></i
-                    ></a>
-                    <ul class="nav_mega">
-                      <li>
-                        <div class="mega_menu_container">
-                          <div class="row pb-30">
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index.html">
-                                  <img
-                                    src="images/demo/home-1.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index.html" class="">Home 01</a>
-                                </h4>
-                              </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-02.html">
-                                  <img
-                                    src="images/demo/home-2.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-02.html" class="active"
-                                    >Home 02</a
-                                  >
-                                </h4>
-                              </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-03.html">
-                                  <img
-                                    src="images/demo/home-3.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-03.html" class="">Home 03</a>
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="row  pb-30">
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-04.html">
-                                  <img
-                                    src="images/demo/home-4.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-04.html" class="">Home 4</a>
-                                </h4>
-                              </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-05-cloud.html">
-                                  <img
-                                    src="images/demo/home-5.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-05-cloud.html" class=""
-                                    >Home Cloud</a
-                                  >
-                                </h4>
-                              </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-06-shape.html">
-                                  <img
-                                    src="images/demo/home-6.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-06-shape.html" class="active"
-                                    >Home Shape</a
-                                  >
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-07-vps.html">
-                                  <img
-                                    src="images/demo/home-7.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-07-vps.html" class=""
-                                    >Home VPS</a
-                                  >
-                                </h4>
-                              </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-08-angle.html">
-                                  <img
-                                    src="images/demo/home-8.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-08-angle.html" class=""
-                                    >Home Angle</a
-                                  >
-                                </h4>
-                              </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-4">
-                              <div class="mega_menu_box">
-                                <a href="index-09-wp.html">
-                                  <img
-                                    src="images/demo/home-9.jpg"
-                                    alt="thumbnail"
-                                    class="img-fluid"
-                                  />
-                                </a>
-                                <h4 class="mega_menu_heading">
-                                  <a href="index-09-wp.html" class=""
-                                    >Home Wordpress</a
-                                  >
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      >Home</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >About</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Services</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Services</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Pricing</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Technology</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Portfolio</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Blog</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Cool Websites</a>
+                      </li>
+                      <li class="nav-item p-nav">
+                    <a href="index.html" class="nav-link active nav-menu"
+                      >Contact</a>
                       </li>
                     </ul>
-                  </li>
-                  <li class="nav-item single_nav">
-                    <a href="domain-page.html" class="nav-link nav-menu"
-                      >Domain</a
-                    >
-                  </li>
-                  <li class="nav-item single_nav">
-                    <a href="index.html" class="nav-link dropdown_icon nav-menu"
-                      >Hosting<i class="fa fa-angle-down"></i
-                    ></a>
-                    <ul class="navbar-nav nav mx-auto">
-                      <li class="nav-item">
-                        <a href="index.html" class="nav-link">Shared Hosting</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-07-vps.html" class="nav-link"
-                          >VPS Hosting</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-05-cloud.html" class="nav-link"
-                          >Cloud Hosting</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-09-wp.html" class="nav-link"
-                          >WordPress Hosting</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-02.html" class="nav-link"
-                          >Reseller Hosting</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="index-07-vps.html" class="nav-link"
-                          >Dedicated Server</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="https://billing.sylhost.com/cart.php"
-                          target="_blank"
-                          class="nav-link"
-                          >WHMCS</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="domain-page.html" class="nav-link"
-                          >Domain Name</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item single_nav">
-                    <a
-                      href="https://billing.sylhost.com/cart.php"
-                      target="_blank"
-                      class="nav-link nav-menu"
-                      >WHMCS</a
-                    >
-                  </li>
-                  <li class="nav-item single_nav">
-                    <a href="#" class="nav-link nav-menu"
-                      >Pages<i class="fa fa-angle-down"></i
-                    ></a>
-                    <ul class="navbar-nav nav mx-auto">
-                      <li class="nav-item">
-                        <a href="#" class="nav-link dropdown_icon d-right"
-                          >Home Pages<i class="fa fa-angle-right"></i
-                        ></a>
-                        <ul class="navbar-nav nav mx-auto d-two d-width">
-                          <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home 01</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-02.html" class="nav-link">Home 02</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-03.html" class="nav-link">Home 03</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-05-cloud.html" class="nav-link"
-                              >Home Cloud</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-08-angle.html" class="nav-link"
-                              >Home Angle</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-06-shape.html" class="nav-link"
-                              >Home Shape</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-07-vps.html" class="nav-link"
-                              >Home VPS</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a href="index-09-wp.html" class="nav-link"
-                              >Home WordPress</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link dropdown_icon d-right"
-                          >Blog Page<i class="fa fa-angle-right"></i
-                        ></a>
-                        <ul class="navbar-nav nav mx-auto d-two d-width">
-                          <li class="nav-item">
-                            <a href="blog.html" class="nav-link">Blog</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="blog-details.html" class="nav-link"
-                              >Blog Details</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a href="privecy.html" class="nav-link">Privacy</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="domain-page.html" class="nav-link"
-                          >Domain Serch</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a href="about.html" class="nav-link">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="team-page.html" class="nav-link">Team</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item single_nav">
-                    <a href="#" class="nav-link nav-menu"
-                      >Blog<i class="fa fa-angle-down"></i
-                    ></a>
-                    <ul class="navbar-nav nav mx-auto">
-                      <li class="nav-item">
-                        <a href="blog.html" class="nav-link">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="blog-details.html" class="nav-link"
-                          >Blog Details</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item p-nav">
-                    <a href="contact.html" class="nav-link nav-menu">Contact</a>
-                  </li>
-                </ul>
+
+                    
+
+
+
+
+
+
+
+
               </div>
               <div class="demo">
                 <div

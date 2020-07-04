@@ -1,0 +1,28 @@
+.banner-body {
+    padding: 95px 0px;
+    color: rgb(0, 0, 0); }
+    .banner-body .banner-body-content h2 {
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 65px;
+      padding: 0;
+      color: rgb(0, 0, 0); }
+    .banner-body .banner-body-content p {
+      font-size: 18px;
+      font-weight: 300;
+      color: rgb(80, 80, 80);
+      line-height: 30px;
+      margin-bottom: 50px; }
+    .banner-body .banner-body-content a {
+      background: #ffffff;
+      color: rgb(0, 0, 0);;
+      border: none;
+      padding: 20px 45px;
+      font-size: 18px;
+      font-weight: 600;
+      display: inline-block;
+      transition: all 0.3s ease-in-out; }
+      .banner-body .banner-body-content a:hover {
+        background: #3ee8e0;
+        color: #ffffff;
+        transition: all 0.3s ease-in-out; }

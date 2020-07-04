@@ -1180,7 +1180,7 @@ input[type=text] {
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url("../images/preloader.gif");
+    background-image: url("assets/images/preloader.gif");
     background-repeat: no-repeat;
     background-position: center;
     transform: translate(-50%, -50%); }
@@ -1470,7 +1470,7 @@ header {
   header::before {
     position: absolute;
     content: "";
-    background: url(../images/header-shade.png);
+    background: url(assets/images/header-shade.png);
     top: 0;
     left: 0;
     height: 100%;
