@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         role="navigation"
         aria-label="main navigation"
       >
-        <app-header-bar-brand></app-header-bar-brand>
+        <app-header></app-header>
       </nav>
     </header>
   `,
