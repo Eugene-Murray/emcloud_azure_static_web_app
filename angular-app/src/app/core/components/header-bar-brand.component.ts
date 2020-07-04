@@ -107,16 +107,6 @@ import { Component } from '@angular/core';
                       >Contact</a>
                       </li>
                     </ul>
-
-                    
-
-
-
-
-
-
-
-
               </div>
               <div class="demo">
                 <div
