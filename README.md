@@ -1,3 +1,5 @@
+![Azure Static Web Apps CI/CD](https://github.com/Eugene-Murray/emcloud_azure_static_web_app/workflows/Azure%20Static%20Web%20Apps%20CI/CD/badge.svg)
+
 ---
 page_type: sample
 languages:
